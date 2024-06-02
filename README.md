@@ -1,3 +1,2 @@
-# e-SuratDesa
-Web Aplikasi Pelayanan Surat Administrasi Desa Online
-©adiidx-2019
+# MailFlow
+Sistem Informasi Surat Menyurat Desa Menturus Kecamatan Kedaton Kota Bandar Lampung
