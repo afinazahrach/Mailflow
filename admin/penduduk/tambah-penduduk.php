@@ -72,8 +72,8 @@
     <div class="row">
       <div class="col-md-12">
         <form method="post" enctype="multipart/form-data" action="import-penduduk.php">
-          <div class="col-md-3">
-            <input name="datapenduduk" type="file" required="required">
+          <div class="col-md-2">
+            <input name="datapenduduk" type="file" required="required" accept=".xls,.xlsx,.csv">
           </div>
           <div>
             <input name="upload" type="submit" class="btn btn-primary" value="Import .XLS">
@@ -328,7 +328,9 @@
                     </div>
                   </div>
                   <div class="box-footer pull-right">
-                    <input type="reset" class="btn btn-default" value="Batal">
+                    <a href="index.php" style="text-decoration: none">
+                      <input type="button" class="btn btn-default" value="Batal">
+                    </a>
                     <input type="submit" name="submit" class="btn btn-info" value="Submit">
                   </div>
                 </div>

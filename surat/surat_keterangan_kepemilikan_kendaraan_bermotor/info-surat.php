@@ -224,7 +224,9 @@
 						</div>
 						<hr width="97%">
 						<div class="container-fluid">
-		                	<input type="reset" class="btn btn-warning" value="Batal">
+							<a href="index.php" style="text-decoration: none">
+		                		<input type="button" class="btn btn-warning" value="Batal">
+							</a>
 		                	<input type="submit" name="submit" class="btn btn-info" value="Submit">
 		              	</div>
 					</form>
